@@ -353,7 +353,6 @@ body {
   background-color: #000;
   background: url(../images/city_background_night.png);
   background-size: cover;
-  border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
