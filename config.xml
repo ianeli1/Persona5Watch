@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="https://github.com/ianeli1" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="pWDN0reyHA.AmbientWatch" package="pWDN0reyHA" required_version="2.3.1" ambient_support="enable"/>
+    <author href="https://github.com/ianeli1" email="boisourish@gmail.com">boisourish</author>
+    <tizen:category name="http://tizen.org/category/wearable_clock"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>Persona5Watch</name>
+    <tizen:privilege name="http://tizen.org/privilege/alarm"/>
+    <tizen:profile name="wearable"/>
+</widget>

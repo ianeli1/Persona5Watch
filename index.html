@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Persona 5 Weather App</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/app.js" defer></script>
+	</head>
+	<body>
+		<div id = "wrapper">
+			<div class = "todays-weather-container">
+				<div class = "datebox">
+					<div class = "month-top"></div>
+					<div class = "month-mid"></div>
+					<div class = "month-base"></div>
+					<div class = "date-tens-top"></div>
+					<div class = "date-ones-top"></div>
+					<div class = "date-tens-mid"></div>
+					<div class = "date-ones-mid"></div>
+					<div class = "date-tens-base"></div>
+					<div class = "date-ones-base"></div>
+					<div class = "weekday-sprite"></div>
+					<div class = "weather-card"></div>
+					<div class = "current-weather-sprite"></div>
+				</div>
+				<div id = "current-temp-container">
+                    <div id = "current-temp-background"></div>
+					<div id = "current-temp-tens"></div>
+					<div id = "current-temp-ones"></div>
+					<div id = "current-temp-decimal"></div>
+					<div id = "current-temp-decimal2"></div>
+					<div id = "current-temp-tenths"></div>
+					<div id = "current-temp-tenths2"></div>
+				</div>
+			</div>
+		</div> <!-- end page wrapper -->
+		<!--Cleanup with webpack later -->
+		<!-- <script type = "text/javascript" src = "javascript/initialise.js"></script>
+		<script type = "text/javascript" src = "javascript/updateSprites.js"></script>
+		<script type="text/javascript" src="javascript/timedFunctions.js"></script>
+		<script type = "text/javascript" src = "javascript/getWeather.js"></script>
+		<script type="text/javascript" src="javascript/processWeather.js"></script> -->
+	</body>
+</html>
