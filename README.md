@@ -7,3 +7,7 @@ If you want to install this watch face, you'll probably need to set up Tizen Stu
 ## Screenshots
 
 ![A screenshot of the watch face](https://media.discordapp.net/attachments/567157301610283011/815455145239248936/Screen_20210227_231933.png)
+
+## Build
+
+This project was written using Typescript, so you'll need to transpile it to JS. Simply install npm, run `npm install && npm run build` and you're good to go.

@@ -1,0 +1,15 @@
+{
+  "name": "Persona5Watch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ianeli1/Persona5Watch.git",
+  "author": "ianeli1 <ianelicha@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/tizen-common-web": "^2.0.0",
+    "typescript": "^4.2.2"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}

@@ -2,15 +2,335 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"></SignatureMethod>
+<Reference URI=".git%2FCOMMIT_EDITMSG">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>wFiMhFzCaRe+jPRCo4clsGX/h8v3D3gDJT4imzFl29VPCyXTZTgTkRyZEFHzOEEwQYl8xHhj/uG/
+dXX3i+/3sw==</DigestValue>
+</Reference>
+<Reference URI=".git%2FFETCH_HEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+fcI8ydhTym7/oxkIrfsDZLggHkT1WMrRgGJGZ38WvyDR3P7PWvup8K75XhtSxgT4rV2/+n4ge+y
+m9/V7paIGg==</DigestValue>
+</Reference>
+<Reference URI=".git%2FHEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>drGZ8b/9xtIVR4lUMbD4XzhX30ACJcvRrlXn3tCXhqikThyyHx/v9JUc9XyJMEOgvmltyw5PV1ik
+1ggagz62zw==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fconfig">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qZqhCtD+07VQU/kJwMlVIRDu652mox2yQJ3ukCm0qqo15YrXwB7XNSl+JDtxTrGx2jkp76luCi1s
+opqknLGU/g==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fdescription">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9+FS91sSTD4cXRLwBCdynZ7sTiwb9w12BkQKZgDQAzZ+sXgzHnWrl2phSW55wsgiAghJ0o/9FwlG
+OXuTRhG0cQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fapplypatch-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>U2zOgE2E4lgTmT790kBTe1LQDOnNzs8ZgvhQltVqUhKQEEyCXACzcLJ1IgGVKpYWo/TijF0npbTk
+hCEBov+b7g==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fcommit-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1rt/p0f0YlrfGHf1RlZcvoEsp91BaPfpBo5nMlVdhzfrpUlUbPWUZknj843oLRc6r5wWCkyflEVl
+Uli0xflV6w==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Ffsmonitor-watchman.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>M2rW1hCvWm3N81vV0L3azTa6swzr5/ILmALiesBO1aCs56nrNBcVkrcZ0iz2Cjx/QxBSEBXd2+X9
+9OVK5e0xEg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpost-update.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>RzrRJGQlcWVidr+Duf9jqxgE08I6W9rlI5HG9wqJSEmsYMEMnTHe/zk4kizoO2ix5gwRWSu/fqUD
+9KzTmWjO+g==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpre-applypatch.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>y3iqfpucFG5dtl2G3YPwTitpQqBvq1DHBKD9kAaD87atEWTnSv4vJn9tqRzf8LmrB3E+Es78b410
+G13xlPT9pg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpre-commit.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>M3V5wD7BUswEJAFB8Wp7xHHX6hzcIU9uVTNn0DozdiHj8O0twOqoAOSggON7DqOWfV2u43RLdRm1
+x4kmK+sdOQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpre-merge-commit.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5NwgRJT1Bi76MDKwDGRwek84l4BASCUBs+CF8HHj7lqXN9U35qUgAs606+K/4J5VXF2WlYHoCz66
+KpIgFcZ5YA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpre-push.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>N80goJBJSssWwiVf6T2t60CfJVOv3cQJ2tW16ZyfVhKijro5fA8653HhftvgpsKjrzERVChebZxD
+5MxPBrpbjQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpre-rebase.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ANIdXXI4bD2bWhw2uoUgH3MFVqgpXUNTr1SveJKrgQENQq/yCewf2mHFTk3aNzfOpf2mTwnUDOUA
+SuKCOVZQJQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fpre-receive.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>7gjBH6t+iWsuCcJBlUunZAM4sSx1zYBA2vBTwxsvIiNteg3qxzb4nTBSNjEv209WCjjU2N69zJ3N
+0jstl1kH1Q==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fprepare-commit-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UOyKDdmEJ+gKgqjYzkRGKoRYduFZTJ0OiUg86aiqrWFu3qDlxFwbtp2P5/UgxvImDW+jUNd7QAiZ
+w643XpZb+w==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fhooks%2Fupdate.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>dZq9M+XR3amz49MRbEeyP2FjINcM1m1WexxO7v6214Vx2Dtn2CXZ4jqsNfCi4HRc+rE4Hs9IbjAH
+awh5dpnyxA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Findex">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>SLC3ahJMbFXor9CF/EMmsxglopR/csMTLgzymjqVXwefE8t1LrqCuTySLyuTopaSWovEKV9mR6nT
+X2XTz0HuJA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Finfo%2Fexclude">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>mCjG7N+RvxF0FuF/TunK7i4eN7b7ALn/BANazhejCJudCiXGuqEEbA4cYtPaiIOOj8p06oKXPWuX
+WQX95Y8wcg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Flogs%2FHEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zPoTKXwJgLukgrLw83thC1ZXBB7w5sZob1deCfAgooEZkkmLo3vYUVd7q6HBa+SUplFKF7KC4VTi
+YvfMzmEgYA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Flogs%2Frefs%2Fheads%2Fmaster">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zPoTKXwJgLukgrLw83thC1ZXBB7w5sZob1deCfAgooEZkkmLo3vYUVd7q6HBa+SUplFKF7KC4VTi
+YvfMzmEgYA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Flogs%2Frefs%2Fremotes%2Forigin%2Fmaster">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>4unFpca6NYi4lj0H+ccVV5bydpsDSR6FGQiBjmHjj+cFJRiroAYT8lYg9vVbgj8xgHduBAocu2A1
+5+RjV8Fyrw==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F00%2Ffe641237f5751d51f8a41eed5a511b1c4de6e9">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>HHArGZIFmRcm8aaLPnfBih2F9I+72hx/c+r8U87SCwF7njkcorW/l/sPWYdIjc6isMAdac5Ey2We
+JPGOKeADKA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F05%2Fbd71b6ec2c1982d1e8a5653073281994564ae8">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>rkyNMBK1NE97/qj7ogMNyRsxmBqim1TOPPykinFotnQZ8bA/YlGmUPGAbMwKSjMRSHWfoaWczAfD
+2D1y3pk6Hg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F06%2F37b26c0938216f0f1b15388ef22ca8fe2c4b99">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>pIqhamzslWZVhIB5aqxZm7KVHw1scYUmxJfd32838czQsTL+gaE0jakp9leB1SbfHFEBbE1AJUW8
+RYEgzafanA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F14%2F117b297dd5dbce3af13db27c2e97eec0b38ee4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>CzUIxrf2UhSMQnBAhH1UgUbf8uR71xtyYbUZF2MdWGHn+E6XfBs0YzJYPn/99J6+cCnTo+9nhsMw
+Dfi8gbFl3g==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F14%2Fb29ef9edf4816f525363180e274665d00c20d1">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bv7RPTypbZYh7VTCgdhStoTmLwXLx4x6pmxDk4JnUC8ArK6wK1TSPXI+EnS49nwm4uDIdIjZFS4L
+TcXMCmWyFg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F19%2F3b0d49cdcf2bbf96a0361ebef3be49698b2cd2">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>TF0yuKD5c2mpInrvYAh0ZpmPPxFvFdHLj/JOMOZw8y/rka0WLezPFpuumkTks7zb9hpm0J3TTtZy
+9HxoLk1wpg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F1e%2F2fedb76d9e5f8e7133c6e9df844798ca28e190">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9+bKtTIzgR0hUY/PYKeEoCq+IXt9A8pNAZVJ0fojDDC+qzByu52c1b2N/PCv3u342Y3Fi1htGbn4
+RPL35eB7mQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F23%2F86351522759e2a0b051a0cb0e4b35a56dff088">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>YiraHssjLWTE798HO9heK3N/ehuKxUDsnwFkKMBY+kWMOjA+WdvbtYinMHW75Ad7oKKRSb5VTbH0
+Sg2hYA3b8A==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F28%2F740a342421327c10c0a062f08ac628f16d11e2">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>uMKNL9MJ5/xtQH70sOkn7NO9LlT1e00LPR0QJcAxg48UCsnh6QUcY0B8CjOMeagEzy8GNsorhCtq
+I3cqv7MaKQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F2f%2Ff8949d51347dd0f7864f99467ec3f643acf261">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>wf7mL4y9EQDIJQnyN57n6cyLR1OSaz/C7YI/6ufqs2PxrKMnNag0i+Vkj+kypHDbTWtdh8SP/HrY
+c6GB2uj3QQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F31%2F1f0ec9d697177d63bed1d0f1d5406d19b04d5b">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UZEfl0mDRWfSrCAKZBKbgsnYn4V/rpIg1EOuolJCtO+oQssFtj9Dbne1RwabfeGM7U+gaCWySxxp
+rRmx8K31AQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F38%2F1dab2f34cdb4e50d277f49d77adcb0a5c7f139">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>p9vFd5g6DbZWgSMz7o3WWieUWWTb55K+nkdQyiHwM9D9a3LWX+/kftJjnB4rxqJ8sLm1ym1xUQHj
+qlicowYzsA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F38%2F8c428baf5305ee8cf60a37b60357b6140acc8e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>UcrIeDBiqiHeuSLb2knp/MZan06+np9GBS4ervpkjwgLF65uISYZmEQj/rdW7l19eKkycs6wjFZe
+PhMFwly01A==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F3b%2Fd5d0a4803967bc0bf72a7dd66d7e292ed2e586">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>RwV/EqNaZMcunMbHXN41HJgQnmf73X1+q+WsYYD2TYaGM+zpISFswED1aEuQFNFdCcjVbI5fNtQH
+vNVhiLdH/w==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F40%2Fd1e78c46f8e786f6fd42c1fcb0d300e3927a70">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DjPGkJlwq4azKaCBV+28OvZwVtqTrHKVMzWTFZLK4IAwOcKNTerDvHeY5PX/yvsyFTkFxCXC53vo
+2SBeVnePgg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F50%2F1c847ab5e6b245ff11213d7ac4ec8324cbbfbd">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DNC1cG2hMBNmq1wXIbQ7TgzqyNcTHg7gqNuTaz8fyoKz32H3igs2X0sEKNyeLE+uXABj2VdXzli/
+hctWqaGB0w==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F5d%2Fdc6bd5f24cf4e67a53e20384dfc868809d10b3">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VLgli7cw5IfmTSpTyqPXbe7gN1bWPdWEVbxF5h+Zg4KkVBz/bRgpLVmGBZUL6RbZuASUvFK8YR5s
+RlP3EXtYMw==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F60%2Fd2130277bfdfec47204f6362547b460f2434b2">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>RHQLKX1OO5l3ze97Z7IYOrqGsnEL2GBkpie8kZq0mEAVmy0mJ5700tjCxVELUQ/4m+TQrJqSolGT
+avwNj1mWag==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F67%2Fe58daf8c08b321c7a6c4fc884e3d4c8a7085a3">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>FvM7A0C5ORMn6KwME73bIH4/5HR1W8RaSI/IpNpZYZja78sIUVfLe8DA3joDJaW1ILRw4Cpm4Jyd
+LQx82QdNYA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F69%2F732d37c4d38bcea33ebe90a751524a6b31a786">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VFSpPHM92tLkwRKHhWS72XHbSxs7oGybCe1ktVGnXu9Ksi0ejpHz4G81WIYyeszFpjDLieQdTd99
+bY4c11kUUg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F7d%2F0734ba94e57ca05f2a2678d5a3d64d087ebd83">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vySQ+I0IE/ztITmTDJn0bdQ9h/X34wIluc7EYhqyZt4DlzD2XEwe9PHJup80aO21i1Bzg4CbG6Vq
+m0iMHDSCgg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F81%2Fc5d0ea7dfc791f87379ef61a403ff71b65db46">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fWCGQHbxCUpWPIYgmyeqqxIBtr8Qd8hqrwZ9VlCxOkExPGmyXiNzojO9YEY7OXAY41d+SC39oLnb
+/nlN0aF2bw==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F85%2Fedcd2b98aa78fa0b9125807bed0ea9e1d2602d">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>HFF5VxTlCAIohz/+BgTHgw0jxC+QRIoW8nbEbzaeoYcTOkCU+49X5Rh095YgmIbkOz46G3m7Sv6h
+JseOtMh12Q==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F8f%2Feaed31cc21c3c63f4ce174ec622738ad55145e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kLUCusrnffl4qDFLXSPPzzLnESUX+XxLYFWtAxoguLQbEp2JrxOTdfgA2GCPGkH7HuYpuF4Ncf4F
+trUdy81pgQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F92%2F2dc567efead0c5b1e08458cdd606a65a53b3a5">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>batJockaQfXo7RE+n1s6I6O+jR4KnQLARlw/adFSkPCA7XN21ZZ/2KpOScbn7GK69YHQTGYiOnqp
+qKqWDieNqw==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2F95%2F1586eebbafa7fecb7ac342273f952511cd5f01">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qrHjKqTHl9smgLNaw+kAKmNCd7IExcMUTs+3oRRh8CU3nWVFKqBYkctHGyI66+r5eP8ivfAQWoA8
+LABMmRpM1w==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fad%2F93f930ef878e79e6e8f81bccbcedff3fbe06b7">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>nxnObqH6QWY+Ht7TZleQmkyO1TAJi6qc+TTQ2M/ZkjzRTKrSdvNtHcX7+a7xe/dUaKYbDmBkpuFO
+eUwK0f92dg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fb1%2F9cc77f366f6b5fa6e86b6800eda238166be4e0">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VefFzcX6yNOQc37cPSFSJtNPRI1+24UtcS/NDtrzJPNrFqj+2Uf+Q0Gbx3hOmNHc6FFXseJNaLtr
+VZpK/czjiw==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fc0%2F8089e2fac29f3cfedaed720ff4512bf14cea97">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>CUXQBWXNe03yZV0x1pJJ1emh/vMjcF7FkB18DLKvNjZ/sqDskZWSApzz0s0VLMqxT8wlFTO8ZLDS
+QOjELgOrpA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fc4%2F87c068cae1a73c7bf7239555c1329610507ec9">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>w42LFlWQJuOx/27OP6WvYcfD0m1krIHAPfFDL2FARC57PtvbzbxuzNHWeoW2MQVfdd8uXgb2H9l0
+QDdZa3i/eg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fcc%2F51cdd484a1b7e1885560708e1aa99c288d4cae">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fch3eomlZAtQaoUpJI4oGhnvgb01/LpywmLkJC0/cOgXXaNMdCLRvBc5Sd/ORhfWI811vuJUmpRH
+88rdFoPiew==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fd4%2F5b79ff3e8f30e51aceb411d78709f5374eb479">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>SlyrQEj/viOpcv0o6hIZih5zQzRjZcOd1/8w8EUTqIYqn/jLKNekEV6zBdCv2i0C5tYVcsTUBcUC
+1fsx/vF7TA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fde%2F8f7212e785c4bb47734d0d088f5b222e2486d7">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>F2xZNxfjdU9HyJTjcseBZi9w8Q5PKGJ5GJfb1Mi/0urO/HOkJxPxwD3lRP/iYlfUc607CMQswlvl
+2TkFxr3QUQ==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fe5%2Fb708316fbb2822ab61fc9ae2c5164cd76c210a">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VtOBe3UDVPKdgnbAAHM6knwZwiR4sJYy9qTXNJZxuSiC3yVYHwk923O4FkyRj+pJlpPs2CUAjogT
+BJfkTZ9xLg==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Fef%2Fabcffaddf4b160d201049c301d5eae7129db80">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>PbukfLjWG/rxk1pmjlfQHeIsYgzt/ZJK+KxvEBoNziQ36Ck5wiWzyD5EpcaTq5VTcllXBkgdWmrT
++cAZnaJh5w==</DigestValue>
+</Reference>
+<Reference URI=".git%2Fobjects%2Ffd%2F6ae07649cc0b8e8c2fd49028ec5d8438ea9081">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>qggciVjE/lbA4LgJgxQdZE/2ILOzAwzXwEEWkygJ67nY+9cxaH7dMvX06//fGHXZtOOAeiaSHwOg
+h0AYKCrX5Q==</DigestValue>
+</Reference>
+<Reference URI=".git%2Frefs%2Fheads%2Fmaster">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>B3xhUbcg8uV1mmeEEw3YO1P6TglplCdYK7wQEAiWYHrmzDMxu2M29Af/duxidrZyZV5p2CoPVzIO
+jskSH9/wIA==</DigestValue>
+</Reference>
+<Reference URI=".git%2Frefs%2Fremotes%2Forigin%2Fmaster">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>B3xhUbcg8uV1mmeEEw3YO1P6TglplCdYK7wQEAiWYHrmzDMxu2M29Af/duxidrZyZV5p2CoPVzIO
+jskSH9/wIA==</DigestValue>
+</Reference>
+<Reference URI=".gitignore">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>YWM4rhgpUVYO2beEhcRQhVD/4nMj5lA0Zi0Si/0zvFjSg9XqxLEhshCuJC5aG1yaiwyZwlPcxUAr
+byksUymTVA==</DigestValue>
+</Reference>
+<Reference URI="README.md">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>2EV73cewu9hzcsBF+ULuW18Ka4M46xsFEI/QwGC0MUWkNREo7JMqYPlNDX25TzLwG8hIfYS3uVc/
+ZoTUJisSHA==</DigestValue>
+</Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>+kB2dz3URemb1asa6KLBfJC4sVdc+3VNA0ZB8Vjei11boDvnKwanGsfVsy2QfiURv3312PH375uY
-LK4LnLVSVw==</DigestValue>
+<DigestValue>Gah1q3CITUfP2KzmLuudvyWPeZdFas8YYzXh0gVcNUwD8UvX1xt/tKTguJ/xlBo4lT+CzQZqT0Bx
+Le6FOyz8gA==</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
 <DigestValue>6K8UnZxJ3X2esQyG3NZ0QZVih3di/Af99mnl2E+qEsVv6yQz7ASt2KLZZpIYxx9BEOnERQ0tx+uE
 ooUaTZPO9w==</DigestValue>
+</Reference>
+<Reference URI="dist%2Findex.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Mcc5yNMMl/ueYrBKDCir/KS1r/iDiAPgiZrpARVT/TfpxAjOfbZl3tuMeY55Y6dMp3XZWjLWD7G1
+fma3+cTYFQ==</DigestValue>
+</Reference>
+<Reference URI="dist%2Findex.js.map">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0p7NudsuatcAz9Qv8rPNFUUu67HUrvp0jHxS7sLLYx4Jutgz5rz0GJm02VLmeIfNCQFx47pghbNA
+ulE4FqdwiQ==</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -89,13 +409,913 @@ S/RVBtRGdw==</DigestValue>
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>C8SNlNV3dQ1F8zIszYprH49z78NnwXU+UzfjhXxI3nIGhWdB18gcJwX5a/Bn2fVpbFqn06e/L68W
-6WvdqiuLVg==</DigestValue>
+<DigestValue>kWjxl+m5z5iZtkwqwqZ56WeOHeelyrgJ5+bUUjT+/YFDEt0cl5FJYuHCOvYhTebJEVSf1YV26qkM
+y46vuw/NNA==</DigestValue>
 </Reference>
-<Reference URI="js%2Fapp.js">
+<Reference URI="node_modules%2F.bin%2Ftsc">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>zZnqHBRyf1Kuiosz8ly28j9hLpR7dp8fvPvcZUbwmem70NpyjTBDbij7I1WA5AI+hYr9REnLbja1
-JIuXix5k6Q==</DigestValue>
+<DigestValue>bdEbimeEwKZy5YIxCjM5OIvyrQkOhSRsN+xZb2PIoht0YpC+l9gSn7H/PKCcyiUtZxARwODzQ0om
+2mRN7fTWXg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2F.bin%2Ftsserver">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3PzNNt48IqOV6X6Osia9g8XZ7UL/vFfgajX5jNH6IOD0EFN+lvc4m9fLZex/VblDkm1sbw1SPyjZ
+V82rSL5PVw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2F.yarn-integrity">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9SIcNiBcxBzS+DoJR9rSEbYcyrJ61BSrA4ATNT2E/Mn5w4jbufn9YPXP4d6vg+y7nkEqfNw9DtwA
+a0tHCyzZJg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2F%40types%2Ftizen-common-web%2FLICENSE">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>HQaIQk9pwOcyKutyDk4o2a87WnotwYuLGYFW43emGm4FvIJFKPyg+OYaw5sTegKAKf+C5SKa1ACj
+zCLivbaHrQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2F%40types%2Ftizen-common-web%2FREADME.md">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>QG2vsQxZS1wAiJt6ejY5Ae5WZU94ew+G02N715qNur+UyJR9t67sDygdRn4XSWHYIfAV8cjNTkFr
+NiROn1G8Jg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2F%40types%2Ftizen-common-web%2Findex.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>JhRkg9lPSH9u5MDBZOjmhim5+zps0XQjbRubCZTuXvbHhBQ4eEz4vqcbG+ybD4NFe64XcA/GbgmV
+5CgYVyvXkg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2F%40types%2Ftizen-common-web%2Fpackage.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>mwpA2yZa/3RBJCzirOp7d9bH2aBUraqpig76pWqfDaNuR7yImP9mKPR4/gCULwTtEjefVO5veJqc
+k7JTV+cyVA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2FAUTHORS.md">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>gzJYbnRlvko7xGFa5FxfpGbu2u9OPbaJVqGuwJiVuD2GIWYw/L3Ui0AkJsLUNvTpDEt0iv4LxQJV
+SFFgVKHI5Q==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2FCODE_OF_CONDUCT.md">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Tie4Pu5DyQiNeJVpp2vXnxGLLKWu1n0BzYTFc8jtANb/j2j2vu16SbN6yxf2qH5haGBhi/ZUDi08
+G/HEe4Pqtw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2FCopyrightNotice.txt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>YnarXxG938LobaOOGst1dK2FXzj9mmRX6En5RecZwqvEzKh5LfxJnVqH4KS8HkDo4TO5CPDwtV08
+dZkgyxvtnA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2FLICENSE.txt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>yre2qpd5YUEmYTyCi2RpiQhs+jQE+CK3/Z+EymUQDqkjKfzPDy/jA6+FI94nxm5rqsqn9tmrUHUs
+eEMF+ZOnaw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2FREADME.md">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9GAyoxw788fMU5oEVsFpZsprFUdDf7J3B37/NR7h2QlzgDxFPon558VTBAzVRax07ILtr72adgDW
+y3dZ8YPBkw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2FThirdPartyNoticeText.txt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>7QMfozhCvsIf/42dgLRdZsVpte6m90szV++ugPTBmJO/YqW4CZM5Nz5s3ATgMkOGbmxenKmDqlkU
+7a6cTLTlgw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Fbin%2Ftsc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bdEbimeEwKZy5YIxCjM5OIvyrQkOhSRsN+xZb2PIoht0YpC+l9gSn7H/PKCcyiUtZxARwODzQ0om
+2mRN7fTWXg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Fbin%2Ftsserver">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3PzNNt48IqOV6X6Osia9g8XZ7UL/vFfgajX5jNH6IOD0EFN+lvc4m9fLZex/VblDkm1sbw1SPyjZ
+V82rSL5PVw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2FREADME.md">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MMQLTIMaaFgmx7eOtx/FgjKWNIydyH+M8n2k+c0AK8HkrfC3duTjbnIdxCOpAfezhr8wNWkAaT1N
+L2H7CLyLQw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2FcancellationToken.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fiKEH7XbgXAzEzkt8Re1pJHXRbIgw2eXiU9SoteeJwiO+FC+8Y4zSZTc+nnVXSXZzO5T4B3rY5je
+0oFkVbgKOg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Fcs%2FdiagnosticMessages.generated.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>em36xqAGTniuq6PMJQu0JFocsVFUgUE8LRCqxoC8rrqiXFBRgUVHzSsWJmFLaiJsR8ehTm7K7rE8
+bRXXeFuLyQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Fde%2FdiagnosticMessages.generated.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>EDBIKHYDtnDzokxjJeo4lomjjloPbgpHw3uROE6crK4uCrkH9K9Mh126xaw0hUA1Aa9Wx+4i8row
+nw3WBqShlQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Fes%2FdiagnosticMessages.generated.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>eVQ+hSzIsvpVd75F9j7q6x0Fk4mYiDd+eoxA4ZjHFBfgtlfon+PEyusmMpLpU5Ub05gw7wJD22O/
+ru/C7oxVcQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Ffr%2FdiagnosticMessages.generated.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>jmu4CNSVD8+0gqkQPk8vJ7UCC/uLbACwdy4u6H238NVdLL7NyQrM58IkE5xPoAoQLk+ras0Q4j/r
+IX1ChQ6W0A==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Fit%2FdiagnosticMessages.generated.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oA/FSGRLcliXFr9/XuRsTQW5k9Mm61k9Vkmf5/8hVUwnrAwzUw6p8v6YixOli0z2V8xhCzyvFLoa
+gBNQXt7nAg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Fja%2FdiagnosticMessages.generated.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1sIAJAQyeO1kdL3X5+mSN9aqTIs3A9YYSH7wb1L2Do3OwDtsRpTYKRGW/6+ZLPLcBsyggwmG5ZNL
+CmNUXZ0wQQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Fko%2FdiagnosticMessages.generated.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>eopNpI7LWpUTAhrUCEjD5pQ7bKfjsEbH4ZGVsvMsECp7cvwFHeKv11Cif3V/6HdGLXDPMdyxYXTG
+DTZIMdim6g==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>CUWYAubv5g5/n59/qoNr7L2IgRyXNJa1C9RsyOJ9EGBZcy0qmVEvv/9IKPkzGufnxscq6yne4wi+
+e+88q7pLsQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.dom.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>d+T6OuFpJzO6XuW+dZCb/hB0XVW9A7Z6xWHYM85wSv7suh6bSmmBtD9sJzpxkg4LyCYPJJidK6rn
+OAyink/QiA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.dom.iterable.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>saAWXvrIbydn7aCvfjJr4XN/ArtxGx2DhZ9hyblDaSaxzowpNzft/81Ai7KlhQIICaBWd6AYEXkH
+Qu7I38nyCA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2015.collection.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GIyMhG6Goe+kO+IkgBf6WtrR9TXEh9X4e6JyaZ9hWWMijhUSrI9Hkf3SysqRDZPzqVeE0XE0zCmx
+I9Kpt+IEig==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2015.core.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>WOg9XpA4rymrE8qAunFGRmf9eDuL+8qsh9lUcXXrYo/8DZp5QwlF468/u7aOe6i6NRFfkMQ8YUDV
+HN8r4TTxmg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2015.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>wKaDS0vIQoAvVC3Bv1pREZwDRhNYcVcV+k34JOlpt9OC1/JMrAggrzc2daqlPokX7vpYkIRV/1Na
+9sOqYMBo3w==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2015.generator.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>LUGJH5+IWq1SGoRQ/y6D0R4gey5kihwHeIz/krEFSu0MSOJRB6xw1fMsYcqMjW780Z1UENV47PCv
+vXWZ6AC8hA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2015.iterable.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MR3g+WhiHNTKH3+s8tiHN+yqV2+CXjKK0tsbVLwsKZurXGhP7gwbsTg3F1Ow2c6muM39V1FdPu6c
+zDsgY2q3QQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2015.promise.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>wjxwMEMEW+Ks+Va+m5/CAIOK+4lQncX2RrUmp9rq0nuuK9tLG0VXooSJjmSfwLDDnKZqHa5risyb
+FG3faMAxxQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2015.proxy.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Necfxim9GmS1mATDbXqkBArf36FVk3OtJLNvuuUCvV34wcof4cyAeCqlSyFiaUvFNSNr0/zN27oO
+A+bgoxHCXw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2015.reflect.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>8Gm9RFtFYNiJiZZyHBPvQpL7rkoTp+3Bqv1MUp4JtkB0Ic5uNT8PmrP8S1CbyO9sUNlAT4pP9/jb
+NhhpiVu8sw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2015.symbol.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>FFbkG9YSlSQSDne+qElEbS7sP/hbspqDj2d7KZSN8j52+1cQWpGcq5/qXDhqd/xDbo5601qtYIWk
+vFY3F5fp3A==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2015.symbol.wellknown.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Bk4NfgHRHMfu3eOngb4vPGXuZoiKIdBjXFtroHmD+EveKCvDbJ2VEFan4rCTqKpuFQuV2w4mYivP
+MF8ggu0lTw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2016.array.include.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>yK5NPKWqGyfnRH+SogAkubnfKy406IyJC85C5zZB4x4PlX2vktTkL9XjW+QTj+B6nTfLqc7FB4wS
+0Kz/k2YhjQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2016.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>e6Rdajr4EqjF+BlHJuRBM66hP21Q3eLI0xrLoB/FEV00kbzmgjz6gx77fQ5x1GAu8zu6uFYSPcvP
+ng68HlnD7w==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2016.full.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+vZfv/uA8sX4zPBxVaw6SGjLJHcRDSYcFyAKYDN1bn4dspqrZa2AP44ZwW2Lh4qoa7usy1rnxc9m
+hvoVZpH0gA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2017.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Cfz6BjXJPyOLxJ3Hk9U43kqLe7SWwWI+iBPWmFqajWp2uSvFzq0X8ek/joFO1mcFx1P0Hfm0zbYg
+6w0zs7rcNg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2017.full.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>4joGhKelYvjOlL9NjiZ6naTp+YKgOhqmaBbjHgPtW5U5n91W//CVqxfh1BWgngWVMIdBLhXVDfg/
+PoJGKfH4Vg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2017.intl.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>lz83yDxgp9rwCkqsVKez3N+8xfk66JafTd8RkyRdCbSq7DqtYxFy5YCSv2ZcKBFdWSiubjqYMSoW
+W1CEe/l7nw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2017.object.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>BFNo8SQ4b+m1B5+rjg25O8RBuN4SmNzxnTE6eO8RJehMDSbpdYxtofkQR8CJHLrvRpB8VHKApl/W
+e66YgIFVsw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2017.sharedmemory.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fosNMm1UFXcg5f6Vvm5qE0JsmgiwaELn5Blt/yt5C+nVOyyzXdaS/wlVbeFSPhst44IiGxo0lIwm
+3ziiYCjqiQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2017.string.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vPnUrdCTJInuiXxYTpSrMGxsSaAdK6xyVpdQsK2ddT+YIe0wqkzc/zrul4jKeZ/h+GKvqNvmFJm9
+mOmxZEa3Cg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2017.typedarrays.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>6+vyaJs1vPyJ84YcpbOfTHpU0Zxj9gyD6w9S8jgN6c/o+cS82Pk/YfBvF8aXcZWC6O9JDcjO9P1r
+LbPdpkPyQg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2018.asyncgenerator.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>XckwtHLZhO4Y25VcRrr1kCmovcXa2SUpCO/a1w3BoAAKwJatedMRTiVGMSkursP3pw0WKWif6CK5
+Tg2U3WDFYw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2018.asynciterable.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hH/s8J4cq5hMlhvQF2ZxW8KmG5oBniS5yPS/OD9XeNtA8xjbMWRaW7AlZ/E5oECZ6mFgemTAmJis
+3sJ0hQa+yg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2018.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+EsnaeKmu/iNdM+Ti3F7QNau+3YTGZfYu+h2EYlYytJx07sF5kzXt9pTpqlYDSUWwjvsabf5Qtmb
+ImGtoTS7/g==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2018.full.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9nvlYh6tqbk3XRyMbd9lgijXcAe39DwIkKlMevjAn5maorHxkWwqmfzTFE5VU4TxlaiHEerw33KO
+OoPBIrr9CQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2018.intl.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+/a/Fzicb1AtggWvsGzdNZPo0cyqTwFWriLfu5MmKfv83km+UlRrNnzfwrWfSFaEH/MhGjaaRvCW
+zXtgjMyJ5g==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2018.promise.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>E7tKGIIaa1LBnwy0p+WmJpLWkW242seZtK7/DhxQDb0f6US3xZBbjppQ5e6NgWu4H7TSbAaYMN23
+rHOu2dAF1Q==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2018.regexp.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bS7vAzaeqxQ9kB8m5pRj6h9Z88BafwrycZ/rFUIbEpHp2jGX2RJ0FaGfbS3f8duiAItcTNo8QFHa
+Xy7+wihVcQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2019.array.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>QNAJJ6q4flH7SABVNkZ9+K8BbSSSc4Ug4C4mmS4+5zI3BJyrNIOWjC+jMEc52lLNA3hVUlyL0Tp6
+HC//1MGmaA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2019.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1eFNcyaW7oR5kzsMfElJgQuJthd43sXze/O+3iP9bfDQssa3G8bh1yutagTwUx6afBwzT9lYswob
+eVIOP9ve8g==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2019.full.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MCDdjktVH9znl+89c5bSdJ0xs5Y3herj5e2+u0GcCNOJwNiR7wJu6hSVjG2sU3IcN3TBUMINoy/U
+R/CKNRlLUg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2019.object.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>N0NJIjG2ro135Q2KO+XYtdWSGwaSioZUggyCmixnw5cMWsfZHkyfCYC+8BB4tG4blS/hvCmGN0C5
+KLI4YtdNQw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2019.string.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>sMy4qqyj1A2tsFrSfni/Gj8lPAZIZkQGL+CUiwC2j7P2QlcinvLVVPuSIT2kvVxTgagGn9+LLXRF
+eNQTbzuT2Q==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2019.symbol.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ouI9mqeYx0npUg8DBRC/vP6YfJZ8JWzWYnBLhh0+K0R/pIkXNh6/bMD7HyXzQ5bUbou+6YsLDD+V
+ao1TT/ZFWw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2020.bigint.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>zSTZ0RTz/K+SybgsEA3C8qXpOUiW3jY8vaa+BvoCOQYRfTPzlc9R2OugnUxzfC9EbVmxHk4jKPYB
+AuE6vEaTyQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2020.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ggMaT9zeJLSbGxJ+rtG15LXIB23Nc6M5FG1SSPppEysa1SdnaGEXzRNev1bRKw1UWXcc7ySp+Ra0
+zw4UaMpn7g==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2020.full.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>88xVXCMkWZBkY2VrEntkU445X1x4U6us8tzMUCekZNGF8PzITMTXyx16b6pxQwS4Z0detBAfrkH9
+nTkt7uAVgg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2020.intl.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Xu9fxMqs1u2h7odM2fRnM9ilupx2+ndfZ/65QTmoqwgssFJ54sOKT8RkMoH8Awp9k8wPb1S32UhG
+zjeb+NXbTA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2020.promise.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>/6jVF68qadCIKFrA15nHliLPGiOPSOqWLcfQQzrh8wX9xfxZ+PLb6tJueiVX5WPi3vASTfjXVgi9
+fvKin5zuZg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2020.sharedmemory.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ydeOrnQni/SoMm2bpofI8CwoY3qjkazDZCCnonDEgGBXOjEzlLEEZlPan9x1r1R1SL3cF3qfBfrn
+SZPAx3KmvQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2020.string.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Nd/CKPteEwtMr5UMioCsMxJXs12avhhLFXGnCIWR067Q01dTQA1z7ZatVJrWCSYLUWK0zDj89lMX
+SP5dl+Ux9A==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es2020.symbol.wellknown.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>H1ULpHGuCUauEk0ONdiceQiMQEgzTasAJ33lcBp9yySHSLiJT4NNWRBGCURXIU9KcfvD5V2DJIwS
+1veAVQndKQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es5.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>GUz/rhCEXKa4kAj8xWlVh3wTolMOp5qzvCmgL3Dx7n8Wg08TmbXxDvx6aKvdfhp+vV3CSM4R4u3C
+bhkI6mGMcA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.es6.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>sWSg3rE6PU0LxxQprZWnojv/tvpKWe+WCCW7jVYaUFW9hdZZASg95521dImwO4aZnFNpbOxL2b2J
+tsYusentRw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.esnext.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>yWQuRkkVjut+Qa5b1p8Hn1kJvYXP1xVUhIBaxUMIf2nn+/o6ATcHZTqs3i3akQMTvTyMqcemcvQn
+ycPUF42tAw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.esnext.full.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>n7RQqF5B/eMqmWdwfLuEIWbuY4zyU5wIYJVmrby4xCb/xqrKe1QRk0OUo6SR18qwJcVr92AdJWng
+I/LS7Jpp7w==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.esnext.intl.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>KNjU+I8DgDF3WO4OfYRxi8X361dDpmxXPSacE+iQeBYzgJJdrQ118n9Z8bpBNZupnB1DbFRTDrgw
+GFvoe9dbWQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.esnext.promise.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>v8IKiLVe5V5cGTnGRBqEqhRc8QLpZQ8/0P3hbg8IkEJWrh2wmXgS79B935scNO9t7eeG8RE6fMN9
+sTgRGFEJoQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.esnext.string.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vQhQDOh14ufIVwutb13CPpg0OQssizY781U5F47Y4QrUE5OW4dUx68/g0frXoKhiLcUOVveiYuBb
+/fa2a84Xsg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.esnext.weakref.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>MD/f/kIw5F9T4FtD6t/AoHX7O8FraRlZxqTGa0jHAg96EnoZho143WZRwT39FijYn2UwhHLo0C8p
+tA55AIndpA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.scripthost.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>f1ZroI5SsJcBQuUrh1gDDwQAnO8ciANWOZzlhT8qd1Gy4l0+PemW/BABQuwqBvQksfyDX5vHd1ie
+0usTMvEH5A==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.webworker.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>DfQ1St7383Q93krRj+e8KEwOO7+2UTYBEoND7kUYlJN/5QqSax0X90g2mXa6dACvqgAkDq2wRm4W
+8SNHM1/Ofg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.webworker.importscripts.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>/SdEd0J84jhXE6EU5xeB+WUE7Krljs/Lw+6IxDCdckLWoSTqMTd++rMnXnWy4M5SMAR4844Vcbn0
+dUZctSkGig==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Flib.webworker.iterable.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Dge4NNKViJxgJuF6icOtzB2zeUEHwv+zSIQOg4cYtwe/BgAQi0iFTO4PlsvlCfXsgM4xsHXxy9i1
+bdjm0XP+MQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Fpl%2FdiagnosticMessages.generated.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bEVFayAtEOe2zee3gikljyJx78nBGJdisVwyVjYzvkwA3Z/s0x8Ig8tjxghc7CG6Ej/fiabYyn9X
+uKtdrFoAXQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Fprotocol.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+1v+MfeX7tsWgIvyPHY1w2u348fw217zz//iuvywAA1PGD8orPggpc0kPKpcUtiIYhx6L1WKjV9o
+LDzg2I5zNA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Fpt-br%2FdiagnosticMessages.generated.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>m6dxySKm2897KuZFNUdOYl/JTmEfhUwhSGLqs8Dj2/shpzy8IZHDBkjEZsxfLGArYby79dxY889O
+QHuEFSNR6Q==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Fru%2FdiagnosticMessages.generated.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>iTzy7ayfbQFsbNTx/jkdyVUWenCyDMKL0CzHjSrYodtf6xOm0U02QxNVcXqHd6goiH+vDPabxagN
+L1Ju0qMzxA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Ftr%2FdiagnosticMessages.generated.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0r8RcoNgiEz/GaEgKV7MYpB665acR/gJZb/z5YFeupPe0Djv9AShnPt22AP1N6ys8EAwms3kW6Z4
+q95QpS4uWQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Ftsc.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>d4l53LJCWJQ/unV5pI+Q6b/aKy/h3bVTX35EIrrRnG+d2rgSg5ZJ8HUKXUprwqHFha3GeUgWj9Vc
+fG4oCYJlRg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Ftsserver.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ty8GF+mDHXn40sEmvpMp0quXrm+W+vRdyc00mLSeLW3f4d0AuVqes9RQbKb1+KvFtt1I8sygwi8z
+xujYr8MC5g==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Ftsserverlibrary.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>o16dG+YNEge4IE9PvtIpf9Cf+daYJHkQt8T6z70NEnuOC6kJExQisiR+wyIVd9BdmU8/bYOjwKk/
+7pneCRoMww==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Ftsserverlibrary.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VdfZet8UwoKqDRP3y8wIs+hpw3Lp6vnlZHDQJBLJ8svsRTsjRrELUmyFBZtMD+P47mvjhe9WHnRr
+KNqd25mEbA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2FtypesMap.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>aaKk9Ci+Sd6RJjNeYNdn4grTvRit2+fwFcVTNbDb/fCNJcRBI1IYWhcSvt8xGxYRpITFJSozANAn
+Mnh17t01cw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Ftypescript.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>k+G8ECSnqDnQeddvzSCMD8O+DGrVpcGCzkVw12f7ViTIQ5mdlwPpMNnbAxOOqnm3VKcGsmHn55G7
+OxkbzRMMlA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Ftypescript.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>8AWpJQtEOcNPfAlTkQnBOeScloC99n8AcLiohfvhChO1wNUzeOZgyqwipiwfsv0XWlBblez/yIp7
+KWHBwywHHw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2FtypescriptServices.d.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>jxXU4Y7zrLPUiWpKSXs2RP/xR55JGJK/iFNAC2DVh7kr3ZE94TAZiSXlYpPYfbT1X9CVw5GwWLXv
+e8SK/HUHsg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2FtypescriptServices.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>lQWwnb0LO27PWRu6aO/K4DcKiEH4dA38L4HsSUC31O/XV3VsIK9vV83bnwIQsXxtWgSgb2gzZiDd
+eYj0Vy+t5w==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2FtypingsInstaller.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vm5bOdy98Z8Da5af28LqgSlyYKl3NiN/oAUx+XscG3m5cINIfGe6+B0vXj/A8gEaQ2NM51Pcf5iY
+oDcXd1+lFA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2FwatchGuard.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Wb5tCtUpxO4dM2piXPSvNA9eP59CiZy+5DswES0DLJ7OwHsl+fs5t2VP3qi7JEZCufQy3JaLbTSc
+eX2d3W1BSw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Fzh-cn%2FdiagnosticMessages.generated.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3YckejiEzYit12F9ueFroXO7NyU6echW5Jxf/C9gKxGO6GzElnz87ALkB8aZ1dpXR9FqWaRZQ4Dd
+gZ+otDK53w==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Flib%2Fzh-tw%2FdiagnosticMessages.generated.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>xvzBMjzGq3qPkVuxO/a2HbT208qdUQJ73TygAX2ofcKadnCsIPSeD0mFIrwb3xqrsWHF447Yf7GN
+HiGulBNNXg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCHS%2FTargets%2FProjectItemsSchema.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Dyx0YHQ5zD8airPEhEqq7V3Wq6BgVD2YvGTuaCghCzVBO7xkybQQevLiViNWLxK43j8B+aoJYlZN
+y8jJ7jZd1w==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCHS%2FTargets%2FTypeScriptCompile.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>OVh1GAD0X73JXlWAwsOTimm8lncePVu902dx8XqtC9ukX4JtnpGoypPqXd2XfScmY6Yv7+SdU0P4
+YW+o52S6DA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCHS%2FTargets%2FTypeScriptProjectProperties.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>D4tlJkz9Y/dMtlY3ntxhUSYh74dfUjCJOYzjwE3rDissczchyY3t3GanOkEs1VG9LORRMHgQVsPv
+xT8SEY7NUw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCHS%2FTypeScriptDebugEngine%2FTypeScriptDebugEngine.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>fuvMHqeX9v8SuBfJ4X85YKUAzt3tdip+jC7Of8mlmkXohRXFz6nA88k1pTlGB9TB4cpP7mdZyfIO
+F7w/KAqOPg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCHS%2FTypeScriptLanguageService%2FMicrosoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>AFQJBElduHnhSraz8w9ErOrv47Fy5Z4yAbjbLEGVv3fYQjP84XZkqWKmgLJ8fKbAiVAFzWlKw1Gh
+ShbuZjqBYg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCHS%2FTypeScriptTasks%2FTypeScript.Tasks.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vPqgkdG5htzZm+5bDOrzr/i8AwlI6yTX1oa4332jSgrZb7BUQQgM/e8SrC0AdvSXLz1zP4Qrmd8I
+y9LyszaNww==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCHT%2FTargets%2FProjectItemsSchema.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>rIAl3vQQQkf5dp00aNwwcEcRbM6di6RfeiK1qoaQbifvHTkXevmLgUaXDPppJLVGS6jFv/pN4zCd
+1ep1rgw8yQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCHT%2FTargets%2FTypeScriptCompile.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>9s4Cql83YdtsgYl+JU3bLlp5/q3GEW9CjvOvpY/zq92jfNLCVIWIMTB8bY7va4vwGVNKU50zZSNm
+fU2QviMNWQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCHT%2FTargets%2FTypeScriptProjectProperties.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>AYsEvCdE2iNYp9MIi99eZcoh1go9l2x4ukYY76hGmqOWksPGO86uj9YhntgRLkGeGKY7pSyjg/Gt
+UGwgPJruAg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCHT%2FTypeScriptDebugEngine%2FTypeScriptDebugEngine.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>yDN8AfEszFJKxpDNQN8+Y7dPrAWpRxG/UFqKO/98j1qS+bXqVqxE35T2ajKL9HWBhgLB0zc0SuGl
+D5M9MHHf3Q==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCHT%2FTypeScriptLanguageService%2FMicrosoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0/kIqZ5hOvJAh/nq5C/r+mfeOkN2HCnY3hEobJrrOwCCDlwE1oNR2gebf/ey6DS8nZ8PnsjDq9op
+D8SqBorzsA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCHT%2FTypeScriptTasks%2FTypeScript.Tasks.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Ow+vBuLvbUhs78V+45VEDro6vMB4OSdFbHKve8TwQssVXAY48JVyZW4KvjO6xOEJS66KgZMmkQMg
+rG4PK4D8eg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCSY%2FTargets%2FProjectItemsSchema.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>2qtlGQJ1OS62ZjuJgYkTsUNzbybFcsi/3n+rFPWbEMJ3ONKcyollDrjW9i9TFJQLHIaxqTQFzZkK
+sG0OGu+Nkg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCSY%2FTargets%2FTypeScriptCompile.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>eZ4ZmVEdRGmnSHSn4jaewdjWIlo8wV3e7fp7mvJ2AFhi87Z1b64OGNC3qleybXYG52N5h+SXfT6E
+xURcpbE1MQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCSY%2FTargets%2FTypeScriptProjectProperties.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3w7HrR7nGMtzojKJSUHiBayyy4AHx6LZ0OkKaI1+5d1c+TdqCVZKDfNn/T3Ph87K3MY5bgOppEsi
+WWZjKCbG6w==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCSY%2FTypeScriptDebugEngine%2FTypeScriptDebugEngine.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>41m5gFquVCTeTeVrIxTh1OLTdBLupQ4gAdy0E6XrQeQ7CrhEwqKaG8WFjiqzoA/aC+P3Cgv2IpBk
+QKN5351bdQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCSY%2FTypeScriptLanguageService%2FMicrosoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>wcr8PLsPPf5Nyn+kJxghjLNE96VSIF84wLw+c8HBt/5+c/b/QUEJ0kfzwgsV0JZq9vBXWn4GJ+xV
+FLuZF73A+g==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FCSY%2FTypeScriptTasks%2FTypeScript.Tasks.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VR5kJeeF979Vl5aAyHNFsm1wxaJ7CVZ9cGKd7Kf7mitXyksrh7TnLuugvjabE2BdizFHIyxFEV4Q
+Mb75bgMVcA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FDEU%2FTargets%2FProjectItemsSchema.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>FZnc/ItFYfoygZQ0yWPD2tg4YG2nV9/jGNW3lRhwxEWy3W9wjCw/ecDtRxM9/ybpVeyJ3Vf1+k9c
+unUZLkqDuA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FDEU%2FTargets%2FTypeScriptCompile.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>OJweLBmXhc/7Tll48QJAhARq2daZmPT2KPPSn//PrY68z7G7tX4LuuyEpIbISDJPI9qeYnaPuKhN
+A92T8im4mw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FDEU%2FTargets%2FTypeScriptProjectProperties.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>w1ZDk3U02v7hUoSYE+X8+zPTd4UXI6XmwO7Xe1uYlixoZ6Fc5LNUXL3L+3NqaylYt8wPyxmoi9RE
+SJbs5DEGQQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FDEU%2FTypeScriptDebugEngine%2FTypeScriptDebugEngine.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1ot6vkWx8u2F83tJD6r2J0n97BQGrOY/hrDGd6LmXoL116JZEv8f3Z+ZhwmHjNilR7alVIMO6McG
+uJ3jtLQWMw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FDEU%2FTypeScriptLanguageService%2FMicrosoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>bUHxDVy0wl5LdgyMr5/xVLo1BWyc1igkId0T7HqKWr+YEhKzSS3FwNwA3I9TzGt7Gp6iB2bIXX3i
+zWS7nwDhig==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FDEU%2FTypeScriptTasks%2FTypeScript.Tasks.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>EsJKTm7pWsjDq+mDr8NRpDEvFj2b2VVv0ZrKz61TVdnM0k2VLnG5pu/6Ix8HWZYclK4mlLUwpf5Q
+p3eompvcvA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FESN%2FTargets%2FProjectItemsSchema.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>OseOkxzyqCNRBbaMgLBhrHbldFb9UIZzAC4mcaj9EkjXDsqpO3s7MtQqAnUibYtm6PHArwA7I7JH
+6lplWoU4QQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FESN%2FTargets%2FTypeScriptCompile.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>88xeM9xfhWlpUmphug9lQjuhQ0Q7K6jhwDAg9Q3NydhE4HUDplDCqo4DsHchbDnU2dzbUFjal5NM
+NXTMxgy3Bg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FESN%2FTargets%2FTypeScriptProjectProperties.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Y3vieYP4mx5Jy82iiw7kRfWv35XxT265CsnMbtS7IEkFVm78v1N7P/VU5LRk99S5ECEeKXTj8C3n
+PckSTD83wg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FESN%2FTypeScriptDebugEngine%2FTypeScriptDebugEngine.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>6sANbSK3Uxsi5GmsOTkyoxBOydnN5hEdBfQtYcrJzWe98DSY4W/+fbFuuQv7Yc8rVuJ6qp7Bpclc
+GouVPzOiQA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FESN%2FTypeScriptLanguageService%2FMicrosoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+e9oBDKC+lqB9jW9TpVNLaIupbyM85E5CdREMppJgt7HVETpgfnaUwLg4g3P7ngTxjhyISU2MwAn
+C/XbosPikg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FESN%2FTypeScriptTasks%2FTypeScript.Tasks.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>yaq8MZKkKSk/kJbGvb6LHMOFbV4ZLKZdibKJLLc+WVVoRKovHSyCyofdiz+mSuYE7wHbMObou+9k
+ZNtO1Heabg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FFRA%2FTargets%2FProjectItemsSchema.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>G2uBZIIdM892kRn3kTs8YRqI+2/9q1jL3vdvHwNnAJEG240uxzBTjZiFLaTWuUOp9+cKHcf78Zql
+dK8Q6M8TCw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FFRA%2FTargets%2FTypeScriptCompile.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>X33E+m05Dx9IkLEdp+MeElAmvhU6N661W4cnknXrIFLnVkBPRQwnT1PL3rBO1L0cqe5cCY4roz7k
+Bnlmygy3aQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FFRA%2FTargets%2FTypeScriptProjectProperties.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>XOrpdq46YdIa2gDVlvqwPxjw7acOWlJwIlaA3E7fYz7TL/RWSp/inaCDjcp1HMlpuvWK9O+6QWAU
+9gKKlHMpzw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FFRA%2FTypeScriptDebugEngine%2FTypeScriptDebugEngine.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+sd0q6xOIUh2+1PtikiVZT1LSwvdKrb17ug9XnCfIGR8jg8jaeO+bxQCFFeV0W9OLbmKfNeZte8/
+LzYaowmJSg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FFRA%2FTypeScriptLanguageService%2FMicrosoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>jeOOL+y2JaWo8kPk9WaZGsLz+jCwb4F34AwcANoVK7uNAdptP3dFcyTUHw/6xv+Wl31puh6MWJ2a
+QKhdzYHekw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FFRA%2FTypeScriptTasks%2FTypeScript.Tasks.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>1lHETJlFzvMvPQDjYVtmeSIE5IwJjmjv+t3P+WGLgyYgvzeyQSQxlUjIyhAuIBKfU7EiaNb2QUzj
+s7tIeZqoRw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FITA%2FTargets%2FProjectItemsSchema.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0Qg/X5yJPHMcltMmrwXDmRfdEb8hGbIF9W8c/kvVnYXuRtJzsQYUrPhCLzYdCHKnzbCpq7JVJ41L
+sOAsCfoAXg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FITA%2FTargets%2FTypeScriptCompile.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>eA8CNh/q7R4y4rz7C0fnwm5+qzAWA3HsvsU6EVfTwQM/Z8dze0SOzdNQkM41ioNpNisATtnwGaTf
+QHmTF5xMbQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FITA%2FTargets%2FTypeScriptProjectProperties.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kij71Ol1XmUm1/ZGcdB+wGX33TB8SFCTG49rsOpcJfeVWYrW4THP5g/U0j1QZpZFS8giFdTp+oiO
+9Hh56MGJmQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FITA%2FTypeScriptDebugEngine%2FTypeScriptDebugEngine.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>BJAGRT9S2w+cNj/YXmavH/yrZT9IsOK9/eHSzJmNHz2O8HQirUsXpiaLkOU5n9SCs8UPAr7fjtJO
+geyu177Lvw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FITA%2FTypeScriptLanguageService%2FMicrosoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>6u7CwLXWSNLSmDlcnXMhan0SzxYZLi/1owh5j7EBnz0fVQqnLCpsR3lpVmPlR24bgXVu6409Zki1
+1w9nAoth8g==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FITA%2FTypeScriptTasks%2FTypeScript.Tasks.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>oveYSbPLU5iaqJmzsKIBhT5bXrlXHDzgcqxwFFFz3kLBZ8Ga4K62c12UtrMmWKLfojzC0onN/7f3
+xEWRFio0BA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FJPN%2FTargets%2FProjectItemsSchema.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Gr8Wdqq0OEYLi8cMSC4tXWH/D12YmEKxrLsaBy8WM7qbB71X8zopJvvpSDpIU4AeEVJrqm5pL0fi
+j1lKiHqxLg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FJPN%2FTargets%2FTypeScriptCompile.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>gzKABtLCykD6zF741xf8h15zHzWcMQAt26T7vzFr795G6CEdGnLuOBjw5jifkt12YO1izbkio2W6
+F1EElCUmcg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FJPN%2FTargets%2FTypeScriptProjectProperties.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>cpZLrywid43qHlA2KH7Alb4giTmHR8LsJSDhd0eqmeo+7042ZRWc95xlpA5I8/ZACy53D7PI7SsQ
+db7IwWmhhQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FJPN%2FTypeScriptDebugEngine%2FTypeScriptDebugEngine.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>iNb7YA/kvZEyIyS6dwkiHq/vfRWNL2TF96wlbT8YmOvTogGa8/7xTrHqrw3lpfNpSTDC9EdfXyS/
+ZlCw8t2vSg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FJPN%2FTypeScriptLanguageService%2FMicrosoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>yglEwut1BbLpc9OLUK7/9pigiMvqEKY1zHtuI5tmnOD6yFQk68Gx1zyH9mGjIKPLn5tB+4w8qytV
+5Hf5p0pqng==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FJPN%2FTypeScriptTasks%2FTypeScript.Tasks.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5NgOI2a9gxnUfXGvrPUWiokioGLiK8vuVaF8P8WGv2HMfejyx1yMS2bkBDn3yd1MrHIAMTjBizko
+geVU3mgXWQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FKOR%2FTargets%2FProjectItemsSchema.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>3hZmZwNtCkz1nlGe23MO9qjOtdKLiqeqU13SekTGkd6ZKmbzuUB+RGtEDe4B0KX2pwWROn5vGP6w
++TgjYFuNHQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FKOR%2FTargets%2FTypeScriptCompile.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>IyD0qIrDH75ljUeCh60sBKbH0XTxQXgW/K8n//4aYcxFX6lyNdF1UaYgirjDJzRreW3FBEkWtAKv
+RG4IJW4LvA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FKOR%2FTargets%2FTypeScriptProjectProperties.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZmXqHnzNdes7SNG206l3FzM0Dyx6qcy+NrfFDVsW1mBGJTuv/cFGFpvcowtSso0qJq6cUCEvl818
+vDEQvuKBLA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FKOR%2FTypeScriptDebugEngine%2FTypeScriptDebugEngine.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>VWSNk6wQtvnKm8r/hwImA6w/A01r5zspGvkhkpsrJhrSsuHWulAXV5r2MhdFo4vFBGBc9VK4TFjk
+cNWdv0sp1w==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FKOR%2FTypeScriptLanguageService%2FMicrosoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>2fZWIBRrb/L+WtDvhzMK3ohZ+5CVUXWJXd9x7LM+1EBw5EjzaWjuRijpqRYFZ5+j+HU4kG0RZoMA
+66jdye6xGw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FKOR%2FTypeScriptTasks%2FTypeScript.Tasks.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>kM7jqYIlzWBBMrGFeUzrhznalLpt9mM8suCY6TJWXPDDRwf5oT0KEvW0jrgAxhVnoKdYfmcds4Xk
+ivgUH2CsJg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FPLK%2FTargets%2FProjectItemsSchema.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Z2LuqdFBecga1Jwi4J6CZpU6deWU+V5KtmD5R8qO3P570ibS1rWRYV4qmpL8K/CAe1eg6vy2O16I
+LcF03ht+ng==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FPLK%2FTargets%2FTypeScriptCompile.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>Ej2/Z1THB/qoPbmVrWLiehmgZg7Fw23NZCHUpgyDsrbPk9VznvSJxDSe0epitUrawNPmJZTsLvVB
+zBeXuytgow==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FPLK%2FTargets%2FTypeScriptProjectProperties.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZzFQEn7JpAy+v2M2WOzbcbaboiPzmNzRlIkkkfqELIDIncC+oAhY1yvbfc0ny9rt8uYTQig3JYWk
+XNWJ5w2cBg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FPLK%2FTypeScriptDebugEngine%2FTypeScriptDebugEngine.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>AHa+43ig8LhTgCzyt/rxpdcET1rdH0N5Dhbku80dHWkl5Hz4Rxj4Rg6uETuRSMEawlHFD0qEgLnx
+Zlddtml2PQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FPLK%2FTypeScriptLanguageService%2FMicrosoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>E0xRDQcJgxBxheTvUI6tNqLDG6RAAZSv5102/yT7wPEwF8xfaen8kGQw5xvoiuumXoEAfnb+dRGp
+3EIEphs2iw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FPLK%2FTypeScriptTasks%2FTypeScript.Tasks.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>iOE0neXrACcfrwUDr7e0N7FhG91o+RoJE4Ei3wye1QDevFT8bq9fxwBnY5HuGN4DFXJQwHxDzmJc
+KfH6BwCfEQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FPTB%2FTargets%2FProjectItemsSchema.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>hTXyAVMzZxTSWoIJrsxkaCSs4esub9gE81/SByxo4Pj9VCKKK52y9iJXcIf7R8VDDLP1sGFmbmh1
+J2xf9dwF0w==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FPTB%2FTargets%2FTypeScriptCompile.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5+NrQPxAnMscqsmQNS6HyScOTCEPFgeEslb4b8xqVMq9XE2XQaUxluYsnJXez0ck1R3jXJFJyJ3a
++nmUepjoQQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FPTB%2FTargets%2FTypeScriptProjectProperties.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>iNr5KIDkoXgPvXeB6B7o1f2l2QjUDiyDU3NI2XcWqJQhd7G5C9pvK2PDgsdkk4puxMwAvHw+yt1/
+00yWy3ypwg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FPTB%2FTypeScriptDebugEngine%2FTypeScriptDebugEngine.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+QdKkIv0gm3Bnxtd1AYf3gj2I1ZcbLtNsIPapEVNI3wOzBwHEttHXgWWqMNTq2Byl4Mufubjx43I
+Fv5fIbj0cA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FPTB%2FTypeScriptLanguageService%2FMicrosoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ZPs7TSQEkVjfbQQLKk9a2LSn/njXtU/SO5ro43uVBS8yrqp5U+UvGQOcLF3fEDQbTN3jjK6Ttvlw
+1aC7dmmd8g==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FPTB%2FTypeScriptTasks%2FTypeScript.Tasks.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>vIYcDBUUslXrYMUyNi7MuUglIxkptuYIrLNJoKysfp1izhiBmecds+vSYyQV2lU+dex5iEUDZOQ9
+3Ctdw5u3vQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FRUS%2FTargets%2FProjectItemsSchema.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>l5ab1xpLGAWuNUYni2Pp8de8yU2kI++6BOmhY4ARYDGXNBF+z1iDJCrSTcVFBbMhHcMom/PGrQax
+w/JDoikAYw==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FRUS%2FTargets%2FTypeScriptCompile.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>NkzWnZ1FYo23FX8QfINMTf39vSFY6YZmHWKLmjeqFYUZ2H8wYVhahI+J4kL7yqqIT2vJWxzKdM3J
+g//gRlBAhA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FRUS%2FTargets%2FTypeScriptProjectProperties.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>5BK6iNDezJujmVhSbuLyWym/NLfKmVo210RgAx5hs5vL4Ds3/QGYDwVCOd4boJ6Rfu+i2cYDZEy4
+piS1DLQ8XQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FRUS%2FTypeScriptDebugEngine%2FTypeScriptDebugEngine.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>tUXm6QmY1rjGsbozUVntWxYK0laropaqHZ00FsxENidUfIz8nY42Eos+yriVkvil3gBiYtvjP67C
+WeHsztlzXg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FRUS%2FTypeScriptLanguageService%2FMicrosoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>u+kQUIimE6nZoUX9uXzVwbOgeoh5z17KKIb8rOGnVOHxetEYEy8FmlJAWAH7xAlkUYQyDFM4y2Hi
+VaFz1lVbhQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FRUS%2FTypeScriptTasks%2FTypeScript.Tasks.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>JboWfgEFyxsEycJXy8RRoEJNVdGqTOCejEao3R/xNZV72FOgYrH4MKBJTN0WCo4fsSLQ9iBQ8wjH
+jIzEkH3czg==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FTRK%2FTargets%2FProjectItemsSchema.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>cAdU9r8uZAylzISQDM7UnDTJpPsf8P12jga3xKysQo9jcnvxyAMGzB+2oDTa4A7qR7BBx7n22nso
+PzSRs41DSQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FTRK%2FTargets%2FTypeScriptCompile.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>0+m6sxICd4ouXzcDZ2F0Bx72TXp6axubfoArJMT3LsM7mMuL1qvFek4A6QeZVJbc9pQ/U8wK5Tjs
+xDYSZRuWIA==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FTRK%2FTargets%2FTypeScriptProjectProperties.xaml.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>m0MNouwktjHF9OQvmJkCv3Q/VOTEBC2AWEgk/HI2F6A4uGMVT2iGWEMi3hKt112ISgepdUTynB3z
+ICQbpYse/A==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FTRK%2FTypeScriptDebugEngine%2FTypeScriptDebugEngine.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>+cyG8lmKy3WQA+ajyk5qkpxwS9ESQb+AtsS3+yCX8fn9+SmVW03xkuVAMw0PvfecJdhSzc2LgKEV
+HNmupIdajQ==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FTRK%2FTypeScriptLanguageService%2FMicrosoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>dspCnZeHM50XPT/R/ZViVShVDvsBTsAOoT20wEKNK5zNpeI+mfFmfItzayLsowN+OhrW4pl+dVdY
+qgXpzbAD5A==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Floc%2Flcl%2FTRK%2FTypeScriptTasks%2FTypeScript.Tasks.dll.lcl">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>G4RTjEqUQUgISnMS+kbgfZYByqAKgnNCPGUvR3ncn/8Ye0KTJDOaFTiH0EHTZjPTdr9M1pJpAyuq
+v68rBFly2w==</DigestValue>
+</Reference>
+<Reference URI="node_modules%2Ftypescript%2Fpackage.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>XyNvfa5MVsJPZdGIfvIwpT+Fx2J2hYdlg+oQDAbj2vD8JaSeSJwYjyDviOj/NsxMe+V93Ms2zlrN
+TVxpYjRs0A==</DigestValue>
+</Reference>
+<Reference URI="package.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ga1PVjRPI0vOSEpHB8+uJpkp87s8Q9oRNwnhyB+9+Lr+7UqvAi2zoXcMObVNcVV7aIo4jUAoQld6
+0DXUCqhnpg==</DigestValue>
+</Reference>
+<Reference URI="src%2Findex.ts">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>YhL3z2jPgfWsY/PJYzjNq3zz25XAZI8gjE64zZYoBV5QJX1+ZwoezizO820mBKWEtyOTIcLXG67j
+fug42jHpIg==</DigestValue>
+</Reference>
+<Reference URI="tsconfig.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>E4ovz+n76i4ejAJpT313gchpZ/WEzAhjz6JKiTBMb/iIsTX6fcSBBerV9rQLd+K8W1Ij9emZIfp6
+olHuiTiddw==</DigestValue>
+</Reference>
+<Reference URI="yarn.lock">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>4F96+YAWkP5yRSJNXEbWOPRaw+5smQysxXYYA7393nIwEkjeRtWQtxq2QPhFBFwEUCyRpzClPHQH
+HOCTf5JERA==</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -107,11 +1327,11 @@ QY10fG1EWQ==</DigestValue>
 </Reference>
 </SignedInfo>
 <SignatureValue>
-HaL4qIo2I9r+F7C6lAb0t0uDmRjr8gbGC2V7wEI3ed5NMlH1tOE2JDVrctYONVhdiyg8q1oaUmls
-7dPLZFZxLTJRivDJfyX6NEo4vy+MW46L9VsgvmjwE1KRgGWZesgoYqTdP0k5oAMiZHSiMP7H24c8
-KIiNLljY8VFes33yVECVpv4tCrEmbFQ9gyITgPu+kWhj3ewfzGz0L8Fff0121t483rw3jlCZe3fn
-hH2Oq1zM4QAZ426Q8tawNhlk7t9PC8AvBB68PDLs3IC7rYn8smUH+kSn9sSMGdE6RR+Xlf9JmLQ0
-BPTm4fSPjFdd6FuazmrU+l4XDsaAVA0plR+0Rw==
+KUUnHBxdVGDH5zPorvlx61wnzBMFlZtyqRdwewuG8lasdGcS5OXSgymYoZGig4KJq+rXkYvrrJOC
+rICth64FhfR0zJr/29X1drA3T7Ub2evYAnFts0tPc2LBoKLHBAGn1qOSkLXA5P+/YFGFOGFRVsGi
+RtrirBfudsW8ElJtzvm8qVdwxZ9oY8F6JLXTx0mzxtJdAXaCySaA7WFLeK4+aq8bU1bSpfTCmcgy
+SoBmAJnDHMwLSZ6pNjHbum4FAZqW2pYoy6T8YWjDTwjzr63z7Afaw3CSsnGiXelYUNe1HJb9VgP0
+/8bjSCuqum70X9379u2voUIvy56kA8aAAHezoQ==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
